@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 
-const home = () => {
+const Home = () => {
   let to = new Date("Jan 01, 2030 00:00:00").getTime();
   let [days, setDays] = useState();
   let [hours, setHours] = useState();
@@ -74,4 +74,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
