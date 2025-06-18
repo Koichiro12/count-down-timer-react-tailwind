@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const home = () => {
-  let to = new Date("Mar 30, 2025 00:00:00").getTime();
+  let to = new Date("Jan 01, 2030 00:00:00").getTime();
   let [days, setDays] = useState();
   let [hours, setHours] = useState();
   let [minutes, setMinutes] = useState();
